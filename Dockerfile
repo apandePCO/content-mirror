@@ -12,4 +12,4 @@ RUN INSTALL_PKGS=" \
     yum clean all && \
     rm -rf /var/lib/rpm /var/lib/yum/history && \
     chmod -R uga+rwx /var/cache/nginx /var/log/nginx /run
-USER 1001
+# USER 1001
